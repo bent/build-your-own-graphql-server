@@ -13,3 +13,6 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
           typeDefs,
           resolvers
         })
+
+        server.listen().then(() => console.log("Ready"))
+
