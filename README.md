@@ -25,3 +25,5 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
           }
         }
 
+9. Open `getAllTodos.gql`; Open `schema.gql`, go to `getAllTodos`
+
