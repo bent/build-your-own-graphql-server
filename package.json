@@ -1,0 +1,8 @@
+{
+  "name": "build-your-own-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bent/build-your-own-graphql-server.git",
+  "author": "Ben Teese <ben.teese@gmail.com>",
+  "license": "MIT"
+}
