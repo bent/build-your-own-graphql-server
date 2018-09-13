@@ -7,6 +7,8 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
+    "apollo-server": "^2.0.7",
+    "graphql": "^14.0.2",
     "sequelize": "^4.38.1",
     "sqlite3": "^4.0.2"
   }
