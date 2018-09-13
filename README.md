@@ -16,3 +16,4 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
           resolvers
         })
 
+6. Add `const resolvers = require("./resolvers")`
