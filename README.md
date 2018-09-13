@@ -23,3 +23,5 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
       Query: {
       }
     }
+
+9. Open `allAdversities.gql`

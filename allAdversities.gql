@@ -1,0 +1,6 @@
+  query AllAdversitiesQuery {
+    allAdversities {
+      id
+      description
+    }
+  }
