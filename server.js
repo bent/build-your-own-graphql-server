@@ -1,5 +1,6 @@
 const { ApolloServer, gql } = require("apollo-server")
 const fs = require("fs")
+const resolvers = require("./resolvers")
 
 const schema = fs.readFileSync("./schema.gql", "utf8")
 
