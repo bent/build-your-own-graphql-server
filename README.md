@@ -17,3 +17,9 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
 
 6. Add `const resolvers = require("./resolvers")`; create `./resolvers.js`
 7. Add `const { Adversity, Belief, Evidence, Alternative, Implication } = require("./models")` to `resolvers.js`
+8. Add to `resolvers.js`:
+
+    module.exports = {
+      Query: {
+      }
+    }
