@@ -1,0 +1,7 @@
+getTodo(id: $id) {
+  description
+  subtasks {
+    id
+    description
+  }
+}
