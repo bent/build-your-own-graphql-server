@@ -16,3 +16,9 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
 
         server.listen().then(() => console.log("Ready"))
 
+9. Open `getAllTodos.gql`
+10. Add to `resolvers.js`:
+
+        getAllTodos() {
+          return Todo.findAll();
+        }
