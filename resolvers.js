@@ -1,0 +1,1 @@
+const { Adversity, Belief, Evidence, Alternative, Implication } = require("./models")
