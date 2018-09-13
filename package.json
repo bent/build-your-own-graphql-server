@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "git@github.com:bent/build-your-own-graphql-server.git",
   "author": "Ben Teese <ben.teese@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2"
+  }
 }
