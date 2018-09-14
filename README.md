@@ -22,3 +22,6 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
         getAllTodos() {
           return Todo.findAll();
         }
+
+12. Run `yarn start`
+
