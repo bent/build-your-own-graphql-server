@@ -33,4 +33,11 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
         }
 
 16. Reload http://localhost:3000, watch it die
+17. Add to `resolvers.js`:
+
+        Todo: {
+          subtasks(todo) {
+            return todo.getSubtasks();
+          }
+        }
 

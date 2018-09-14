@@ -8,5 +8,10 @@ module.exports = {
     getTodo(_, args) {
       return Todo.findById(args.id)
     }
+  },
+  Todo: {
+    subtasks(todo) {
+      return todo.getSubtasks();
+    }
   }
 }
