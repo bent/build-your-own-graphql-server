@@ -41,3 +41,4 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
           }
         }
 
+18. Reload http://localhost:3000, watch it work
