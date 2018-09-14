@@ -25,4 +25,5 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
 
 12. Run `yarn start`
 13. Reload http://localhost:3000
+14. Open `getTodo.gql`
 
