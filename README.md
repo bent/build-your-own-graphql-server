@@ -32,3 +32,5 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
           return Todo.findById(args.id)
         }
 
+16. Reload http://localhost:3000, watch it die
+
