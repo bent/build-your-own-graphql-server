@@ -20,6 +20,12 @@ module.exports = {
     },
     deleteTodo(_, {id}) {
       return Todo.destroy({where: {id}}).then(() => {id})
+    },
+    createSubtask(_, {todoId, description}) {
+      return Subtask.create({TodoId: todoId, description})
+    },
+    deleteSubtask(_, {id}) {
+      return Subtask.destroy({where: {id}}).then(() => {id})
     }
   }
 }

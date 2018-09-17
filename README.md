@@ -59,4 +59,11 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
         }
 
 23. Remove a todo
+24. Add to `resolvers.js`:
 
+        createSubtask(_, {todoId, description}) {
+          return Subtask.create({todoId, description})
+        },
+        deleteSubtask(_, {id}) {
+          return Subtask.destroy({where: {id}}).then(() => {id})
+        }
