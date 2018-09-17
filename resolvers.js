@@ -13,5 +13,10 @@ module.exports = {
     subtasks(todo) {
       return todo.getSubtasks();
     }
+  },
+  Mutation: {
+    createTodo(_, {description}) {
+      return Todo.create({description})
+    }
   }
 }

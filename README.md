@@ -43,3 +43,11 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
 
 18. Reload http://localhost:3000, watch it work
 19. Open `createTodo.gql`
+20. Add to `resolvers.js`:
+
+        Mutation: {
+          createTodo(_, {description}) {
+            return Todo.create({description})
+          }
+        }
+
