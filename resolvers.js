@@ -17,6 +17,9 @@ module.exports = {
   Mutation: {
     createTodo(_, {description}) {
       return Todo.create({description})
+    },
+    deleteTodo(_, {id}) {
+      return Todo.destroy({where: {id}}).then(() => {id})
     }
   }
 }

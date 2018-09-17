@@ -52,3 +52,11 @@ Demo project for the 'Build Your Own GraphQL Server In 10 Minutes' talk
         }
 
 21. Reload http://localhost:3000, add a todo
+22. Add to `resolvers.js`:
+
+        deleteTodo(_, {id}) {
+          return Todo.destroy({where: {id}}).then(() => {id})
+        }
+
+23. Remove a todo
+
