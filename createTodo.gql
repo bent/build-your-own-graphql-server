@@ -1,0 +1,4 @@
+createTodo(description: $description) {
+  id
+  description
+}
