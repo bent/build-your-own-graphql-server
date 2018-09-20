@@ -1,4 +1,6 @@
-getAllTodos {
-  id
-  description
+query AllTodosQuery {
+  getAllTodos {
+    id
+    description
+  }
 }

@@ -1,7 +1,9 @@
-getTodo(id: $id) {
-  description
-  subtasks {
-    id
+query TodoQuery($id: ID!) {
+  getTodo(id: $id) {
     description
+    subtasks {
+      id
+      description
+    }
   }
 }

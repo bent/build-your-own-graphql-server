@@ -1,4 +1,6 @@
-createTodo(description: $description) {
-  id
-  description
+mutation CreateTodoMutation($description: String!) {
+  createTodo(description: $description) {
+    id
+    description
+  }
 }
